@@ -12,6 +12,15 @@ the following two patch files:
 
     recipes-protocols/scst/files/0001-add-mpt3.patch
 
+
+Installation Example Debian 11
+
+recipes-support/lsiutil/files/lsiutil-1.72.tar.gz
+tar -xvf lsiutil-1.72.tar.gz
+cd lsiutil
+apt-get install build-essential
+make -f Makefile_Linux
+
 Requirements
 ------------
 
