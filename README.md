@@ -15,11 +15,11 @@ the following two patch files:
 
 Installation Example Debian 11
 
-recipes-support/lsiutil/files/lsiutil-1.72.tar.gz
-tar -xvf lsiutil-1.72.tar.gz
-cd lsiutil
-apt-get install build-essential
-make -f Makefile_Linux
+recipes-support/lsiutil/files/lsiutil-1.72.tar.gz  
+tar -xvf lsiutil-1.72.tar.gz  
+cd lsiutil  
+apt-get install build-essential   
+make -f Makefile_Linux  
 
 Requirements
 ------------
